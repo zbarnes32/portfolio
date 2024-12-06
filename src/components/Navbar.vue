@@ -22,19 +22,13 @@
     <div class="">
       <ul class="navbar-nav me-auto">
         <li class="nav-link">
-          <router-link to="#about" class="nav-text px-3">About Me</router-link>
-          <router-link to="#projects" class="nav-text px-3">My Projects</router-link>
-          <router-link to="#skills" class="nav-text px-3">Skills</router-link>
-          <router-link to="#contact" class="nav-text px-3">Contact Me</router-link>
+          <a href="#about" class="nav-text px-3">About Me</a>
+          <a href="#project" class="nav-text px-3">My Projects</a>
+          <a href="#skills" class="nav-text px-3">Skills</a>
+          <a href="#contact" class="nav-text px-3">Contact Me</a>
         </li>
       </ul>
     </div>
-    <!-- <ul className="">
-      <li><a href="#about" className="">About Me</a></li>
-      <li><a href="#projects" className="">My Projects</a></li>
-      <li><a href="#skills" className="">Skills</a></li>
-      <li><a href="#contact" className="">Contact Me</a></li>
-    </ul>  -->
   </nav>
 </template>
 

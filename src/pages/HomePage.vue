@@ -1,184 +1,24 @@
 <script setup>
 
-// let mySkills = [ "HTML", "CSS", "JavaScript", "Bootstrap", "#C", "Vue.js", "Node.js", ".NET Core", "SQL", "MongoDB", "Docker", "Agile/Scrum", "MVC", "AWS"];
+import About from "@/components/About.vue";
+import Projects from "@/components/Projects.vue";
+import Skills from "@/components/Skills.vue";
+import Contact from "@/components/Contact.vue";
 
-// let mySkillsList = document.getElementById('skillList');
-
-// console.log(mySkills.length);
-
-// for(let i = 0; i < mySkills.length; i++) {
-//   let li = document.createElement('li');
-//   li.innerHTML = mySkills[i];
-  
-// };
 
 </script>
 
 <template>
-  <!-- Landing Section -->
-  <!-- <div class="landing-section" id="about">
-    <div class="about-me">
-      <h1>Zachary Barnes</h1>
-      <h2>Full-stack developer</h2>
-      <p>Focused on creating seamless, user-friendly interfaces and building robust full-stack systems to deliver comprehensive, end-to-end solutions.</p>
-    </div>
-    <div>
-      <img src="https://plus.unsplash.com/premium_photo-1720287601300-cf423c3d6760?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="image"/>
-    </div>
-  </div> -->
-
-  <!-- My Projects -->
-  <!-- FIXME refactor to single component -->
-  <!-- <div class="my-projects" id="projects">
-    <h2 class="project-title text-center">My Projects</h2>
-    <div class="project-section">
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div> -->
-
-    <!-- Skills Section -->
-    <!-- <div class="flex justify-content-center" id="skills">
-      <div>
-        <h2>My Skills</h2>
-      </div>
-    </div> -->
-
-
-    <!-- Contact Section -->
-    <!-- <div class="bg-dark" id="contact">
-      <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div> -->
-    
+  <div>
+    <About id="about"/>
+    <Projects id="projects"/>
+    <Skills id="skills" />
+    <!-- <Contact id="contact" /> -->
+    <div id="contact">Contact</div>
+  </div>
 
 </template>
 
 <style scoped lang="scss">
-
-// .landing-section {
-//   display: flex;
-// }
-
-// .about-me {
-//   background-color: #1C2A4E;
-//   color: #F0F5FF;
-//   padding: 3em;
-// }
-
-// .image {
-//   height: 360px;
-//   width: 480px;
-//   object-fit: cover;
-// }
-
-// .my-projects {
-//   display: flex;
-//   flex-direction: column;
-//   padding: 3em;
-// }
-
-// .project-section {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: center;
-// }
-
-// .icon {
-//   font-size: 28px;
-// }
-
-// .icon-list {
-//   display: flex;
-//   justify-content: end;
-// }
-
-// .project-card {
-//   margin: 1em 3em;
-
-// }
-
-// .project-title {
-//   font-size: 48px;
-//   padding-bottom: 0.5em;
-// }
 
 </style>

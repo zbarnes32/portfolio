@@ -4,80 +4,82 @@ let mySkills = [ "HTML", "CSS", "JavaScript", "Bootstrap", "#C", "Vue.js", "Node
 
 </script>
 
-
 <template>
-    <div class="my-projects" id="projects">
-    <h2 class="project-title text-center">My Projects</h2>
-    <div class="project-section">
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-      <div class="card project-card" style="width: 18rem">
-        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
-        <div class="card-body">
-          <h5 class="card-title">Project Example</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
-          <div class="icon-list">
-            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
-            <span class="mdi mdi-github icon"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
+  <section id="projects">
 
+    <div class="my-projects" >
+      <h2 class="project-title text-center">My Projects</h2>
+      <div class="project-section">
+        <div class="card project-card" style="width: 18rem">
+        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
+        <div class="card-body">
+          <h5 class="card-title">Project Example</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
+          <div class="icon-list">
+            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
+            <span class="mdi mdi-github icon"></span>
+          </div>
+        </div>
+      </div>
+      <div class="card project-card" style="width: 18rem">
+        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
+        <div class="card-body">
+          <h5 class="card-title">Project Example</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
+          <div class="icon-list">
+            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
+            <span class="mdi mdi-github icon"></span>
+          </div>
+        </div>
+      </div>
+      <div class="card project-card" style="width: 18rem">
+        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
+        <div class="card-body">
+          <h5 class="card-title">Project Example</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
+          <div class="icon-list">
+            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
+            <span class="mdi mdi-github icon"></span>
+          </div>
+        </div>
+      </div>
+      <div class="card project-card" style="width: 18rem">
+        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
+        <div class="card-body">
+          <h5 class="card-title">Project Example</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
+          <div class="icon-list">
+            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
+            <span class="mdi mdi-github icon"></span>
+          </div>
+        </div>
+      </div>
+      <div class="card project-card" style="width: 18rem">
+        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
+        <div class="card-body">
+          <h5 class="card-title">Project Example</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
+          <div class="icon-list">
+            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
+            <span class="mdi mdi-github icon"></span>
+          </div>
+        </div>
+      </div>
+      <div class="card project-card" style="width: 18rem">
+        <img src="https://images.unsplash.com/photo-1499673610122-01c7122c5dcb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="example picture">
+        <div class="card-body">
+          <h5 class="card-title">Project Example</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend eros ac metus consectetur, nec venenatis tortor cursus. Phasellus id diam lobortis, ullamcorper augue ut, placerat elit. Donec augue turpis, efficitur sed sagittis ac, laoreet sit amet nisi.</p>
+          <div class="icon-list">
+            <span class="mdi mdi-web icon" style="padding: 0 10px"></span>
+            <span class="mdi mdi-github icon"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
 </template>
 
 

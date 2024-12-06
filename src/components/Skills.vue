@@ -4,12 +4,14 @@
 
 
 <template>
-    <div class="flex justify-content-center" id="skills">
+  <section id="skills">
+    <div class="flex justify-content-center">
       <div>
         <h2>My Skills</h2>
       </div>
     </div>
-</template>
+  </section>
+  </template>
 
 
 <style lang="scss" scoped>
